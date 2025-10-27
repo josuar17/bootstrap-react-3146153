@@ -1,5 +1,115 @@
-// Vamos a importar los estilos y el componente InfoCard
-import { InfoCard } from "./componentes/infoCard"
+import React from 'react'
+import"./App.css"
+import { NavBar } from './componentes/navbar'
+export const App = () => {
+  return (
+    <>
+    <h1>PAGIA PRINCIPAL App.jsx </h1>
+    <NavBar/>
+    </>
+  )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import { InfoCard } from "./componentes/infoCard"
+
 import { UserCard } from "./componentes/UserCard"
 import { InfoPelicula } from "./componentes/InfoPelicula"
 import "./App.css"
@@ -46,4 +156,4 @@ export function App(){
     </div>
 
   )
-}
+} */
