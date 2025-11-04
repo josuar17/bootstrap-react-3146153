@@ -1,11 +1,13 @@
 import React from 'react'
 import"./App.css"
 import { NavBar } from './componentes/navbar'
+import { ExtensionCard } from './componentes/ExtensionCard'
 export const App = () => {
   return (
     <>
     <h1>PAGIA PRINCIPAL App.jsx </h1>
     <NavBar/>
+    <ExtensionCard/>
     </>
   )
 }
