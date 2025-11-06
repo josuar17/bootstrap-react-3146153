@@ -2,12 +2,69 @@ import React from 'react'
 import"./App.css"
 import { NavBar } from './componentes/navbar'
 import { ExtensionCard } from './componentes/ExtensionCard'
+import { LoginForm } from './componentes/LoginForm'
 export const App = () => {
   return (
     <>
     <h1>PAGIA PRINCIPAL App.jsx </h1>
     <NavBar/>
-    <ExtensionCard/>
+    <div className='containerCards'>
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+          <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+        <ExtensionCard
+        cardTitle="SPOTIFY"
+        cardImage=""
+        cardDescription="/>"
+        ExtensionCard/>
+
+      </div>
+      <LoginForm/>
     </>
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import "../stylesheats/ExtensionCard.css"
 
-export const ExtensionCard = () => {
-  return (
+export const ExtensionCard = ({cardTitle, cardImage, cardDescripcion}) => {
+  return (        
     <>
     <h1 className='title'>Card Extension</h1>
     
@@ -10,8 +10,8 @@ export const ExtensionCard = () => {
     <div className="info">
     <div className="icon">🧭</div>
     <div>
-      <h3>DevLens</h3>
-      <p>Quickly inspect page layouts and visualize element boundaries.</p>
+      <h3 className='titulo'>{cardTitle}</h3>
+      <p className='desc'>{cardDescripcion}</p>
     </div>
     </div>
     <div className="actions">
