@@ -1,0 +1,49 @@
+.metrika-container {
+  margin-top: 40px;
+}
+
+.metrika-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.metrika-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 160px);
+  grid-auto-rows: 140px;
+  gap: 20px;
+}
+
+.metrika-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.metrika-box i {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+
+.red { background: #d9534f; }
+.teal { background: #5bc0de; }
+.green { background: #5cb85c; }
+.blue { background: #5bc0ff; }
+.orange { background: #f0ad4e; }
+.pink { background: #d36aa5; }
+.yellow { background: #f7c86e; }
+
+.wide {
+  grid-column: span 2;
+}
+
