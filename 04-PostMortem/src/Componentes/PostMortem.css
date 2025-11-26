@@ -1,0 +1,151 @@
+/* VARIABLES - Colores globales*/
+:root {
+  --rojo: #7d0000;
+  --rojo-claro: #b30000;
+  --negro: #000;
+  --gris-oscuro: #1c1c1c;
+  --blanco: #fff;
+}
+
+/* RESETEO BÁSICO */
+body {
+  background-color: var(--negro);
+  font-family: Arial, sans-serif;
+  color: var(--blanco);
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar-custom {
+  background: var(--blanco);
+  border-bottom: 4px solid var(--rojo);
+}
+
+.navbar-custom .brand-text {
+  color: var(--rojo);
+  font-weight: bold;
+}
+
+/*  HERO / PORTADA */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.hero-cards {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-card {
+  width: 48%;
+  background: var(--rojo);
+  opacity: 0.85;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* AUTORES */
+.autores-section {
+  background: var(--rojo);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.autores-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.autores-text {
+  padding: 15px;
+}
+
+/* NOVEDADES */
+.novedades-section {
+  background: var(--gris-oscuro);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.novedades-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* LOGO SECCIÓN */
+.logo-section {
+  background: var(--rojo);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* SECCIÓN COLAPSO */
+.colapso-section {
+  background: #111;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.colapso-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*  PERSONAJES */
+.personajes-section {
+  background: var(--negro);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.personaje-img {
+  width: 70%;
+  max-width: 250px;
+}
+
+/*   TIENDA  */
+.tienda-section {
+  background: #f1f1f1;
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--negro);
+}
+
+.tienda-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tienda-btn {
+  background: var(--negro);
+  color: var(--blanco);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.tienda-btn:hover {
+  background: var(--rojo);
+}
+
+/* FOOTER */
+.footer-custom {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  color: var(--blanco);
+}
