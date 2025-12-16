@@ -10,7 +10,7 @@ export default function Tienda() {
         <div className="row text-center mb-5">
           <div className="col-12 d-flex justify-content-center align-items-center mb-4" style={{ backgroundColor: '#7a0000', padding: '15px 0' }}>
             <img src="/LOGO.png" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
-            <h1 style={{ fontSize: '2rem', fontWeight: 'bolder', color: '#ffffff', textTransform: 'uppercase', letterSpacing: '3px' }}>TIENDA</h1>
+            <h1 style={{ fontSize: '2rem', fontWeight: 'bolder', color: '#ffffff', letterSpacing: '3px' }}>TIENDA</h1>
             <img src="/LOGO.png" style={{ width: '30px', height: '30px', marginLeft: '10px' }} />
           </div>
           
@@ -31,7 +31,7 @@ export default function Tienda() {
                 
                 <p style={{ fontSize: '1.5rem', fontWeight: 'bolder', color: '#ffffff', marginBottom: '20px' }}>$ 100.00</p>
                 
-                <button style={{ backgroundColor: '#000000', color: '#ffffff', border: '2px solid #ffffff', padding: '10px 30px', textTransform: 'uppercase', cursor: 'pointer', fontSize: '0.9rem', fontWeight: 'bold' }}>Añadir al Carrito <span style={{ marginLeft: '10px' }}>🛒</span></button>
+                <button style={{ backgroundColor: '#000000', color: '#ffffff', border: '2px solid #ffffff', padding: '10px 30px',  cursor: 'pointer', fontSize: '0.9rem', fontWeight: 'bold' }}>Añadir al Carrito <span style={{ marginLeft: '10px' }}>🛒</span></button>
             </div>
 
             <div className="col-12 col-md-6 d-flex flex-column align-items-center text-center">
@@ -42,7 +42,7 @@ export default function Tienda() {
                 
                 <p style={{ fontSize: '1.5rem', fontWeight: 'bolder', color: '#ffffff', marginBottom: '20px' }}>$ 50.00</p>
                 
-                <button style={{ backgroundColor: '#000000', color: '#ffffff', border: '2px solid #ffffff', padding: '10px 30px', textTransform: 'uppercase', cursor: 'pointer', fontSize: '0.9rem', fontWeight: 'bold' }}>Añadir al Carrito <span style={{ marginLeft: '10px' }}>🛒</span></button>
+                <button style={{ backgroundColor: '#000000', color: '#ffffff', border: '2px solid #ffffff', padding: '10px 30px', cursor: 'pointer', fontSize: '0.9rem', fontWeight: 'bold' }}>Añadir al Carrito <span style={{ marginLeft: '10px' }}>🛒</span></button>
             </div>
 
         </div>

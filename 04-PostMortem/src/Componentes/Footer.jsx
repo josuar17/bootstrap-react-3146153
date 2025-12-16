@@ -29,7 +29,7 @@ export default function Footer() {
                 
                 
                 <div className="d-flex align-items-center mb-3">
-                    {/* Ícono de Correo */}
+                    
                     <span style={{ fontSize: '1.5rem', marginRight: '15px' }}>✉️</span> 
                     <p style={{ margin: '0', fontSize: '1rem' }}>Envíanos un Correo Electrónico</p>
                 </div>
@@ -38,7 +38,7 @@ export default function Footer() {
            
             <div className="col-12 col-md-7">
                 
-                {/* Redes Sociales */}
+                
                 <h2 style={{ fontSize: '1.8rem', fontWeight: 'bold', marginBottom: '30px' }}>
                     Síguenos en <span style={{ color: '#ff0000' }}>Nuestras Redes</span>
                 </h2>

@@ -1,6 +1,5 @@
-import React from 'react';
 
-export default function Historia() {
+export default function Colapso() {
   
   return (
     <div className="w-100 d-flex justify-content-center align-items-start" style={{ backgroundColor: '#000000', padding: '80px 0', color: '#ffffff', minHeight: '100vh' }}>
@@ -35,15 +34,15 @@ export default function Historia() {
               className="d-flex flex-row"
             >
               
-              <div style={{ fontSize: '3rem', color: '#ff0000', cursor: 'pointer', padding: '0 10px' }}>&larr;</div>
+              <div style={{ fontSize: '3rem', color: '#ff0000', cursor: 'pointer', padding: '0 10px' }}></div>
 
               <div className="d-flex justify-content-center align-items-center gap-4 flex-wrap flex-md-nowrap">
-                <img src="/PRIMERA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }} className="img-fluid" />
-                <img src="/SEGUNDA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }} className="img-fluid" />
-                <img src="/TERCERA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }} className="img-fluid" />
+                <img src="/PRIMERA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }} />
+                <img src="/SEGUNDA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }} />
+                <img src="/TERCERA.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', objectFit: 'cover' }}  />
               </div>
               
-              <div style={{ fontSize: '3rem', color: '#ff0000', cursor: 'pointer', padding: '0 10px' }}>&rarr;</div>
+              <div style={{ fontSize: '3rem', color: '#ff0000', cursor: 'pointer', padding: '0 10px' }}></div>
             </div>
           </div>
         </div>
@@ -51,8 +50,8 @@ export default function Historia() {
         <div className="row justify-content-center mb-5 pt-5">
           <div className="col-12 text-center">
             <div className="d-flex justify-content-center align-items-center mb-4">
-                <h2 style={{ fontSize: '2rem', fontWeight: 'bold', textTransform: 'uppercase' }}>CONTEXTO DEL MUNDO</h2>
-                <h2 style={{ fontSize: '1.8rem', fontWeight: 'bold', textTransform: 'uppercase', color: '#ff0000', marginLeft: '10px' }}>( EN EL CÓMIC )</h2>
+                <h2 style={{ fontSize: '2rem', fontWeight: 'bold',  }}>CONTEXTO DEL MUNDO</h2>
+                <h2 style={{ fontSize: '1.8rem', fontWeight: 'bold', color: '#ff0000', marginLeft: '10px' }}>( EN EL CÓMIC )</h2>
             </div>
             <div className="d-flex justify-content-center mb-4">
                 <img src="/LOGO.png" style={{ width: '40px', height: 'auto' }} /> 

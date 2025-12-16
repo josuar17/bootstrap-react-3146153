@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Personajes() {
+export default function Personajes({nombreAlejandro}) {
   
   return (
     <div className="w-100 d-flex justify-content-center align-items-start" style={{ backgroundColor: '#000000', padding: '80px 0', minHeight: '100vh', color: '#ffffff' }}>
@@ -20,7 +20,7 @@ export default function Personajes() {
             <div className="col-12 col-md-4 d-flex flex-column align-items-center">
                 <img src="/ALEJANDRO.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', marginBottom: '20px' }} className="img-fluid" />
                 <p style={{ fontSize: '1rem', lineHeight: '1.5', marginBottom: '20px', maxWidth: '300px' }}>Adolescente introvertido, adicto a los videojuegos y al principio es un desconectado del mundo real, pero tras el colapso comienza una transformación interna hacia la empatía y la supervivencia. Representa la transición entre la virtualidad y el instinto humano.</p>
-                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#ffffff', textTransform: 'uppercase' }}>Alejandro</h3>
+                <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#ffffff', textTransform: 'uppercase' }}>{nombreAlejandro}</h3>
             </div>
 
            
@@ -33,7 +33,7 @@ export default function Personajes() {
          
             <div className="col-12 col-md-4 d-flex flex-column align-items-center">
                 <img src="/ALEJANDRO.png" style={{ width: '100%', maxWidth: '200px', height: 'auto', marginBottom: '20px' }} className="img-fluid" />
-                <p style={{ fontSize: '1rem', lineHeight: '1.5', marginBottom: '20px', maxWidth: '300px' }}>Hombre rudo, protector y con un pasado posiblemente militar o rural. Armado con machete, actúa como figura de autoridad en el nuevo orden. Desconfiado al inicio, se convierte en un mentor para Alejandro, guiándolo con firmeza.</p>
+                <p style={{ fontSize: '1rem', lineHeight: '1.5', marginBottom: '20px', maxWidth: '300px', }}>Hombre rudo, protector y con un pasado posiblemente militar o rural. Armado con machete, actúa como figura de autoridad en el nuevo orden. Desconfiado al inicio, se convierte en un mentor para Alejandro, guiándolo con firmeza.</p>
                 <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#ffffff', textTransform: 'uppercase' }}>Dario</h3>
             </div>
 
